@@ -24,3 +24,8 @@ cont.forEach(function(e){
     })
   
 })
+
+var load =  document.querySelector(".loader");
+setTimeout(function(){
+    load.style.top="-100%";
+ },4000);
