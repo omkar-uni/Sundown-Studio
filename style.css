@@ -602,6 +602,7 @@ body::-webkit-scrollbar {
     font-family: neu;
     position: absolute;
     opacity: 0;
+    transition: all ease 1s;
     background: linear-gradient(to right, #ff6f00,#FE330A);
     -webkit-background-clip: text;
     animation-name:load ;
