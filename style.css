@@ -599,7 +599,7 @@ body::-webkit-scrollbar {
 .loader h1{
     font-size: 2vw;
     color: transparent;
-    font-family: neu1;
+    font-family: neu;
     position: absolute;
     opacity: 0;
     background: linear-gradient(to right, #ff6f00,#FE330A);
