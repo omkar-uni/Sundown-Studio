@@ -26,6 +26,8 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+
+
 .main {
 
     position: relative;
@@ -461,7 +463,7 @@ body::-webkit-scrollbar {
     width: 23vw;
     height: 29vw;
     position: fixed;
-/*     background-color: red; */
+    background-color: red;
     z-index: 99;
     border-radius: 20px;
     top: 29%;
@@ -580,3 +582,55 @@ body::-webkit-scrollbar {
     
 
 }
+
+.loader{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    top:0;
+    transition: all ease 1s;
+    z-index: 11;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader h1{
+    font-size: 2vw;
+    color: transparent;
+    font-family: neu1;
+    position: absolute;
+    opacity: 0;
+    background: linear-gradient(to right, #ff6f00,#FE330A);
+    -webkit-background-clip: text;
+    animation-name:load ;
+    animation-duration: 1s;
+   animation-delay: 1s;
+   animation-timing-function: linear;
+}
+
+.loader h1:nth-child(2){
+    animation-delay: 2s;
+   
+}
+.loader h1:nth-child(3){
+    animation-delay: 3s;
+   
+}
+
+@keyframes load {
+    0%{
+        opacity: 0;
+    }
+    10%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
