@@ -461,7 +461,7 @@ body::-webkit-scrollbar {
     width: 23vw;
     height: 29vw;
     position: fixed;
-    background-color: red;
+/*     background-color: red; */
     z-index: 99;
     border-radius: 20px;
     top: 29%;
